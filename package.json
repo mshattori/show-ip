@@ -1,0 +1,17 @@
+{
+  "name": "show-ip",
+  "version": "1.0.0",
+  "description": "show IP address of your network interfaces",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "_start": "electron --inspect-brk .",
+    "build-linux-armv7l": "electron-packager ./ --platform=linux --arch=armv7l --overwrite"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.13",
+    "electron-packager": "^13.1.0"
+  }
+}
