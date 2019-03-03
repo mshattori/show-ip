@@ -2,28 +2,11 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<link rel="stylesheet" href="index.css">
+	<title>IP</title>
 </head>
 <body>
-<h1 id="ips"></h1>
-<script type="text/javascript">
-window.addEventListener('DOMContentLoaded', () => {
-	var os = require('os');
-	
-	ips = document.querySelector('#ips');
-
-	var interfaces = os.networkInterfaces();
-	var addresses = [];
-	for (var k in interfaces) {
-	    for (var k2 in interfaces[k]) {
-	        var address = interfaces[k][k2];
-	        if (address.family === 'IPv4' && !address.internal) {
-	            addresses.push(address.address);
-	        }
-	    }
-	}
-	ips.innerText = addresses;
-})
-</script>
+<div id="ips"></div>
+<script src="index.js"></script>
 </body>
 </html>

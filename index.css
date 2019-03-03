@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	background: #eee;
+}
+
+#ips {
+	width: 100%;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: #333;
+}
