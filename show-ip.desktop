@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Show IP
+Icon=/usr/share/pixmaps/openbox.xpm
+Exec=/home/pi/show-ip-linux-armv7l/show-ip
+Type=Application
+Encoding=UTF-8
+Terminal=false
